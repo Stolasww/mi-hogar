@@ -1,0 +1,7 @@
+{
+  "name": "Mi Hogar",
+  "description": "Aplicación integral para la organización del hogar: gestión de tareas, finanzas personales en COP, notas digitales y calendario de actividades cotidianas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
