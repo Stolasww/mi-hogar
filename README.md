@@ -18,3 +18,15 @@ View your app in AI Studio: https://ai.studio/apps/02335634-cdb3-4c3a-90a5-8b734
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Publish on GitHub Pages
+
+The `main` branch is deployed automatically to
+https://stolasww.github.io/mi-hogar/ after GitHub Pages is configured to use
+GitHub Actions in the repository's Pages settings. The repository is private,
+so publishing it this way requires a GitHub plan that supports Pages for
+private repositories. The deployed website itself is public.
+
+The app currently uses sample data held in browser memory. Tasks, notes,
+calendar events, and financial records are not saved or synchronized between
+devices.
